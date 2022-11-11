@@ -1,0 +1,11 @@
+.portfolio__list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  column-gap: 3%;
+  row-gap: 6%;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}

@@ -1,0 +1,9 @@
+.contacts {
+  height: 80vh;
+  background-color: var(--main-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}

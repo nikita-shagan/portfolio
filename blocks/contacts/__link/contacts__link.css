@@ -1,0 +1,14 @@
+.contacts__link {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+  color: var(--main-white);
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.contacts__link:hover {
+  transform: translate(0, 8px);
+}

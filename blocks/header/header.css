@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  min-height: 70px;
+  background-color: var(--main-color);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}

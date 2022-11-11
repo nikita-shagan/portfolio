@@ -1,0 +1,16 @@
+.header__link {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+  color: #f0f0f0;
+  transition: background-color .3s linear;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.header__link:hover {
+  background-color: #45567d;
+}
