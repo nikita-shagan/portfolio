@@ -1,0 +1,9 @@
+.footer {
+  background-color: #ddd;
+  min-width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 20px;
+
+}

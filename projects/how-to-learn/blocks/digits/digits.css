@@ -1,0 +1,7 @@
+.digits {
+  padding: 100px 0;
+  max-height: 751px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

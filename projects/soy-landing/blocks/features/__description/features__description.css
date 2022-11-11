@@ -1,0 +1,8 @@
+.features__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  padding: 5px;
+  box-sizing: border-box;
+}

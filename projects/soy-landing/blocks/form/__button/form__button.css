@@ -1,0 +1,14 @@
+.form__button {
+  width: 150px;
+  height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #f1c40f;
+  transition: background-color .3s linear;
+  border-style: none;
+}
+
+.form__button:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}

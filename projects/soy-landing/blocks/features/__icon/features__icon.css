@@ -1,0 +1,16 @@
+.features__icon {
+  color: darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+}
+
+@media screen and (max-width: 350px) {
+  .features__icon {
+    width: 0;
+    height: 0;
+    font-size: 0;
+  }
+}

@@ -1,0 +1,7 @@
+.table {
+  max-height: 428px;
+  width: 1100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}

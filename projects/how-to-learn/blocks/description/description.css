@@ -1,0 +1,7 @@
+.description {
+  padding-top: 100px;
+  min-height: 310px;
+  max-height: 366px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Original Soy</title>
+  <link rel="stylesheet" href="pages/index.css">
+  <link rel="icon" href="./images/soybean-logo.png">
+</head>
+<body>
+  <div class="page">
+    <header class="header" id="header">
+      <div class="logo">
+        <img src="./images/pngwing.com.png" alt="logo soy beans" class="logo__image" id="header-img">
+        </img>
+        <p class="logo__title">
+          Original Soy
+        </p>
+      </div>
+      <nav class="menu" id="nav-bar">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link nav-link" href="#features">Features</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link nav-link" href="#how-it-works">How it works</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link nav-link" href="#cards">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="hero">
+        <h1 class="hero__heading">Great quality product, without GMO</h1>
+        <form action="https://www.freecodecamp.com/email-submit" class="form" id="form">
+          <fieldset class="form__field">
+            <input type="email" name="email" class="form__item" id="email" required placeholder="Enter your email address">
+            <input type="submit" name="submit" class="form__button" id="submit" value="Get Started">
+          </fieldset>
+        </form>
+      </section>
+      <section class="features" id="features">
+        <ul class="features__list">
+          <li class="features__item">
+            <div class="features__icon">
+              <i class="fa fa-3x fa-fire"></i>
+            </div>
+            <div class="features__description">
+              <h2 class="features__description-title">
+                Rich in proteins
+              </h2>
+              <p class="features__description-text">
+                We constantly monitor the fertility of the soil, so our soybeans are rich in nutrients and minerals
+              </p>
+            </div>
+          </li>
+          <li class="features__item">
+            <div class="features__icon">
+              <i class="fa fa-3x fa-truck"></i>
+            </div>
+            <div class="features__description">
+              <h2 class="features__description-title">
+                Fast shipping
+              </h2>
+              <p class="features__description-text">
+                We make sure you recieve your order as fast as possible, we also have scales to control each kologramm
+              </p>
+            </div>
+          </li>
+          <li class="features__item">
+            <div class="features__icon">
+              <div class="fa fa-3x fa-battery-full"></div>
+            </div>
+            <div class="features__description">
+              <h2 class="features__description-title">
+                Quality Assurance
+              </h2>
+              <p class="features__description-text">
+                For every purchase you make, we will ensure that all soybeans are sorted and dried for long-term storage
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="video" id="how-it-works">
+        <iframe class="video__iframe"
+                src="https://www.youtube.com/embed/ZfYyXmF4jak"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                id="video">
+        </iframe>
+      </section>
+      <section class="description">
+        <h2 class="description__title">Our history</h2>
+        <p class="description__paragraph">
+          We grow soy scince 2001, when we desided to buy
+          our first tractor Belarus MTZ-80. But it wasn't
+          enough to seed this culture. So, we borrowed some
+          implementation from Kolchoz, named after Lenin - soviet
+          legacy. Then we seeded our first 10Ga of land
+        </p>
+        <p class="description__paragraph">
+          In the fall of 2001 we asked Kolhoz to gather our first crop.
+          We payed them some part of gathered harvist and sold another part.
+          With the proceeds we bougth missing equipment and by folowing year
+          did everything on our own.
+        </p>
+        <p class="description__paragraph">
+          Then we started to buy land around our village. Meanwhile the
+          Kolchoz gained too much debts and went bunkrupt. But our business
+          boomed. During this 22 years was also many difficulties.
+          For example - the drought in 2012, when our pruductivity of land was less than 800 Kg per 10000 square meters.
+          Or the flood in 2013. These two were the most hard years. But we overcame all the issues
+          and in 2022 we've reached record productivity for our region - 2500 Kg per 10000 square meters.
+          In addition we also grow some other cultures, like wheat and oats.
+        </p>
+      </section>
+      <section class="cards" id="cards">
+        <ul class="table">
+          <li class="card cards__item">
+            <h3 class="card__title">
+              Soy beans
+            </h3>
+            <p class="card__price">
+              $600 per ton
+            </p>
+            <img src="./images/soy.jpg" alt="soy" class="card__image">
+            <button class="card__button">
+              SELECT
+            </button>
+          </li>
+          <li class="card cards__item">
+            <h3 class="card__title">
+              Wheat
+            </h3>
+            <p class="card__price">
+              125$ per ton
+            </p>
+            <img src="./images/wheat.jpg" alt="wheat" class="card__image">
+            <button class="card__button">
+              SELECT
+            </button>
+          </li>
+          <li class="card cards__item">
+            <h3 class="card__title">
+              Oats
+            </h3>
+            <p class="card__price">
+              100$ per ton
+            </p>
+            <img src="./images/oats.jpg" alt="oats" class="card__image">
+            <button class="card__button">
+              SELECT
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__links">
+        <li class="footer__link-wrapper"><a href="#" class="footer__link">Privacy</a></li>
+        <li class="footer__link-wrapper"><a href="#" class="footer__link">Terms</a></li>
+        <li class="footer__link-wrapper"><a href="#" class="footer__link">Contact</a></li>
+      </ul>
+      <p class="footer__copyright">2022, Original Soy</p>
+    </footer>
+  </div>
+</body>
+</html>

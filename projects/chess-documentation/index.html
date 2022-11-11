@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chess Documentation</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="https://cdn.icon-icons.com/icons2/1495/PNG/512/chess_103351.png">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header><h1>Chess Documentation</h1></header>
+            <ul>
+            <li><a href="#Setup" class="nav-link">Setup</a></li>
+            <li><a href="#Movement" class="nav-link">Movement</a></li>
+            <li><a href="#Check_and_checkmate" class="nav-link">Check and checkmate</a></li>
+            <li><a href="#Castling" class="nav-link">Castling</a></li>
+            <li><a href="#En_passant_and_promotion" class="nav-link">En passant and promotion</a></li>
+            <li><a href="#Win" class="nav-link">Win</a></li>
+            <li><a href="#Draw" class="nav-link">Draw</a></li>
+            <li><a href="#Time_control" class="nav-link">Time control</a></li>
+            <li><a href="#Notation" class="nav-link">Notation</a></li>
+            <li><a href="#Opening" class="nav-link">Opening</a></li>
+            <li><a href="#Middlegame" class="nav-link">Middlegame</a></li>
+            <li><a href="#Endgame" class="nav-link">Endgame</a></li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Setup">
+                <header><h2>Setup</h2></header>
+                <p>Chess pieces are divided into two different colored sets. While the sets may not be literally white and black (e.g. the light set may be a yellowish or off-white color, the dark set may be brown or red), they are always referred to as "white" and "black". </p>
+                <img src="https://smartkidschess.com/wp-content/uploads/2017/09/chess-board-setup.png" class="diagram img-setup">
+                <p>The players of the sets are referred to as White and Black, respectively. Each set consists of 16 pieces: one king, one queen, two rooks, two bishops, two knights, and eight pawns. Chess sets come in a wide variety of styles; for competition, the Staunton pattern is preferred.</p>
+                <p>The game is played on a square board of eight rows (called ranks) and eight columns (called files). By convention, the 64 squares alternate in color and are referred to as light and dark squares; common colors for chessboards are white and brown, or white and dark green.</p>
+                <p>The pieces are set out as shown in the diagram and photo. Thus, on White's first rank, from left to right, the pieces are placed in the following order: rook, knight, bishop, queen, king, bishop, knight, rook. On the second rank is placed a row of eight pawns. Black's position mirrors White's, with an equivalent piece on the same file. The board is placed with a light square at the right-hand corner nearest to each player. The correct positions of the king and queen may be remembered by the phrase "queen on her own color" ─ i.e. the white queen begins on a light square and the black queen on a dark square.</p>
+                <p>In competitive games, the piece colors are allocated to players by the organizers; in informal games, the colors are usually decided randomly, for example by a coin toss, or by one player concealing a white pawn in one hand and a black pawn in the other, and having the opponent choose.</p>
+            </section>
+            <section class="main-section" id="Movement">
+                <header><h2>Movement</h2></header>
+                <p>White moves first, after which players alternate turns, moving one piece per turn, except for castling, when two pieces are moved. A piece is moved to either an unoccupied square or one occupied by an opponent's piece, which is captured and removed from play. With the sole exception of en passant, all pieces capture by moving to the square that the opponent's piece occupies. Moving is compulsory; a player may not skip a turn, even when having to move is detrimental.</p>
+                <p>Each piece has its own way of moving. In the diagrams, the dots mark the squares to which the piece can move if there are no intervening piece(s) of either color (except the knight, which leaps over any intervening pieces). All pieces except the pawn can capture an enemy piece if it is located on a square to which they would be able to move if the square was unoccupied. The squares on which pawns can capture enemy pieces are marked in the diagram with black crosses.</p>
+                <img src="https://elzr.com/blag/img/2018/chess-pieces/chess-moves.png" alt="Movement of chess pieces" class="img-movement">
+                <ul>
+                    <li>The king moves one square in any direction. There is also a special move called castling that involves moving the king and a rook. The king is the most valuable piece — attacks on the king must be immediately countered, and if this is impossible, immediate loss of the game ensues (see Check and checkmate below).</li>
+                    <li>A rook can move any number of squares along a rank or file, but cannot leap over other pieces. Along with the king, a rook is involved during the king's castling move.</li>
+                    <li>A bishop can move any number of squares diagonally, but cannot leap over other pieces.</li>
+                    <li>A queen combines the power of a rook and bishop and can move any number of squares along a rank, file, or diagonal, but cannot leap over other pieces.</li>
+                    <li>A knight moves to any of the closest squares that are not on the same rank, file, or diagonal. (Thus the move forms an "L"-shape: two squares vertically and one square horizontally, or two squares horizontally and one square vertically.) The knight is the only piece that can leap over other pieces.</li>
+                    <li>A pawn can move forward to the unoccupied square immediately in front of it on the same file, or on its first move it can advance two squares along the same file, provided both squares are unoccupied (black dots in the diagram). A pawn can capture an opponent's piece on a square diagonally in front of it by moving to that square (black crosses). It cannot capture a piece while advancing along the same file. A pawn has two special moves: the en passant capture and promotion.</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Check_and_checkmate"> 
+                <header><h2>Check and checkmate</h2></header>
+                <p>When a king is under immediate attack, it is said to be in check. A move in response to a check is legal only if it results in a position where the king is no longer in check. This can involve capturing the checking piece; interposing a piece between the checking piece and the king (which is possible only if the attacking piece is a queen, rook, or bishop and there is a square between it and the king); or moving the king to a square where it is not under attack. Castling is not a permissible response to a check.</p>
+                <p>The object of the game is to checkmate the opponent; this occurs when the opponent's king is in check, and there is no legal way to get it out of check. It is never legal for a player to make a move that puts or leaves the player's own king in check. In casual games, it is common to announce "check" when putting the opponent's king in check, but this is not required by the rules of chess and is not usually done in tournaments.</p>
+            </section>
+            <section class="main-section" id="Castling">
+                <header><h2>Castling</h2></header>
+                <p>Once per game, each king can make a move known as castling. Castling consists of moving the king two squares toward a rook of the same color on the same rank, and then placing the rook on the square that the king crossed.</p>
+                <p>Castling is permissible if the following conditions are met:</p>
+                <ul>
+                    <li>Neither the king nor the rook has previously moved during the game.</li>
+                    <li>There are no pieces between the king and the rook.</li>
+                    <li>The king is not in check and does not pass through or land on any square attacked by an enemy piece.</li>
+                </ul>
+                <p>Castling is still permitted if the rook is under attack, or if the rook crosses an attacked square.</p>
+            </section>
+            <section class="main-section" id="En_passant_and_promotion">
+                <header><h2>En passant and promotion</h2></header>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/ChessPawnSpecialMoves.gif" alt="Examples of pawn moves" class="diagram">
+                <p>When a pawn makes a two-step advance from its starting position and there is an opponent's pawn on a square next to the destination square on an adjacent file, then the opponent's pawn can capture it en passant ("in passing"), moving to the square the pawn passed over. This can be done only on the turn immediately following the enemy pawn's two-square advance; otherwise, the right to do so is forfeited. For example, in the animated diagram, the black pawn advances two squares from g7 to g5, and the white pawn on f5 can take it en passant on g6 (but only immediately after the black pawn's advance).</p>
+                <p>When a pawn advances to its eighth rank, as part of the move, it is promoted and must be exchanged for the player's choice of queen, rook, bishop, or knight of the same color. Usually, the pawn is chosen to be promoted to a queen, but in some cases, another piece is chosen; this is called underpromotion. In the animated diagram, the pawn on c7 can be advanced to the eighth rank and be promoted. There is no restriction on the piece promoted to, so it is possible to have more pieces of the same type than at the start of the game (e.g., two or more queens). If the required piece is not available (e.g. a second queen) an inverted rook is sometimes used as a substitute, but this is not recognized in FIDE sanctioned games.</p>
+            </section>
+            <section class="main-section" id="Win">
+                <header><h2>Win</h2></header>
+                <p>A game can be won in the following ways:</p>
+                <ul>
+                    <li>Checkmate: The king is in check and the player has no legal move. (See check and checkmate above.)</li>
+                    <li>Resignation: A player may resign, conceding the game to the opponent.[3] Most tournament players consider it good etiquette to resign in a hopeless position.</li>
+                    <li>Win on time: In games with a time control, a player wins if the opponent runs out of time, even if the opponent has a superior position, as long as the player has a theoretical possibility to checkmate the opponent were the game to continue.</li>
+                    <li>Forfeit: A player who cheats, violates the rules, or violates the rules of conduct specified for the particular tournament can be forfeited. Occasionally, both players are forfeited.</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Draw">
+                <header><h2>Draw</h2></header>
+                <p>There are several ways a game can end in a draw:</p>
+                <ul>
+                    <li>Dead position: If neither player is able to checkmate the other by any legal sequence of moves, the game is drawn. For example, if only the kings are on the board, all other pieces having been captured, checkmate is impossible, and the game is drawn by this rule. On the other hand, if both players still have a knight, there is a highly unlikely yet theoretical possibility of checkmate, so this rule does not apply. The dead position rule supersedes the previous rule which referred to "insufficient material", extending it to include other positions where checkmate is impossible, such as blocked pawn endings where the pawns cannot be attacked.</li>
+                    <li>Draw by agreement: In tournament chess, draws are most commonly reached by mutual agreement between the players. The correct procedure is to verbally offer the draw, make a move, then start the opponent's clock. Traditionally, players have been allowed to agree to a draw at any point in the game, occasionally even without playing a move; in recent years efforts have been made to discourage short draws, for example by forbidding draw offers before move thirty.</li>
+                    <li>Threefold repetition: This most commonly occurs when neither side is able to avoid repeating moves without incurring a disadvantage. In this situation, either player can claim a draw; this requires the players to keep a valid written record of the game so that the claim can be verified by the arbiter if challenged. The three occurrences of the position need not occur on consecutive moves for a claim to be valid. The addition of the fivefold repetition rule in 2014 requires the arbiter to intervene immediately and declare the game a draw after five occurrences of the same position, consecutive or otherwise, without requiring a claim by either player. FIDE rules make no mention of perpetual check; this is merely a specific type of draw by threefold repetition.</li>
+                    <li>Fifty-move rule: If during the previous 50 moves no pawn has been moved and no capture has been made, either player can claim a draw. The addition of the seventy-five-move rule in 2014 requires the arbiter to intervene and immediately declare the game drawn after 75 moves without a pawn move or capture, without requiring a claim by either player. There are several known endgames where it is possible to force a mate but it requires more than 50 moves before a pawn move or capture is made; examples include some endgames with two knights against a pawn and some pawnless endgames such as queen against two bishops. Historically, FIDE has sometimes revised the fifty-move rule to make exceptions for these endgames, but these have since been repealed. Some correspondence chess organizations do not enforce the fifty-move rule.</li>
+                    <li>Draw on time: In games with a time control, the game is drawn if a player is out of time and no sequence of legal moves would allow the opponent to checkmate the player.</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Time_control">
+                <header><h2>Time control</h2></header>
+                <p>In competition, chess games are played with a time control. If a player's time runs out before the game is completed, the game is automatically lost (provided the opponent has enough pieces left to deliver checkmate).[1] The duration of a game ranges from long (or "classical") games, which can take up to seven hours (even longer if adjournments are permitted), to bullet chess (under 3 minutes per player for the entire game). Intermediate between these are rapid chess games, lasting between one and two hours per game, a popular time control in amateur weekend tournaments.</p>
+                <p>Time is controlled using a chess clock that has two displays, one for each player's remaining time. Analog chess clocks have been largely replaced by digital clocks, which allow for time controls with increments.</p>
+                <p>Time controls are also enforced in correspondence chess competitions. A typical time control is 50 days for every 10 moves.</p>
+            </section>
+            <section class="main-section" id="Notation">
+                <header><h2>Notation</h2></header>
+                <p>Historically, many different notation systems have been used to record chess moves; the standard system today is short-form algebraic notation. In this system, each square is uniquely identified by a set of coordinates, a–h for the files followed by 1–8 for the ranks. The usual format is:</p>
+                <code>initial of the piece moved - file of destination square - rank of destination square</code>
+                <p>The pieces are identified by their initials. In English, these are K (king), Q (queen), R (rook), B (bishop), and N (knight; N is used to avoid confusion with king). For example, Qg5 means "queen moves to the g-file, 5th rank" (that is, to the square g5). Different initials may be used for other languages. In chess literature figurine algebraic notation (FAN) is frequently used to aid understanding independent of language.</p>
+                <p>To resolve ambiguities, an additional letter or number is added to indicate the file or rank from which the piece moved (e.g. Ngf3 means "knight from the g-file moves to the square f3"; R1e2 means "rook on the first rank moves to e2"). For pawns, no letter initial is used; so e4 means "pawn moves to the square e4".</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/SCD_algebraic_notation.svg/242px-SCD_algebraic_notation.svg.png" alt="Square names in algebraic chess notation" class="diagram">
+                <p>If the piece makes a capture, "x" is usually inserted before the destination square. Thus Bxf3 means "bishop captures on f3". When a pawn makes a capture, the file from which the pawn departed is used to identify the pawn making the capture, for example, exd5 (pawn on the e-file captures the piece on d5). Ranks may be omitted if unambiguous, for example, exd (pawn on the e-file captures a piece somewhere on the d-file). A minority of publications use ":" to indicate a capture, and some omit the capture symbol altogether. In its most abbreviated form, exd5 may be rendered simply as ed. An en passant capture may optionally be marked with the notation "e.p."</p>
+
+                <p>If a pawn moves to its last rank, achieving promotion, the piece chosen is indicated after the move (for example, e1=Q or e1Q). Castling is indicated by the special notations 0-0 (or O-O) for kingside castling and 0-0-0 (or O-O-O) for queenside castling. A move that places the opponent's king in check usually has the notation "+" added. There are no specific notations for discovered check or double check. Checkmate can be indicated by "#". At the end of the game, "1–0" means White won, "0–1" means Black won, and "½–½" indicates a draw.[1] Chess moves can be annotated with punctuation marks and other symbols. For example: "!" indicates a good move; "!!" an excellent move; "?" a mistake; "??" a blunder; "!?" an interesting move that may not be best; or "?!" a dubious move not easily refuted.</p>
+                <p>For example, one variation of a simple trap known as the Scholar's mate (see animated diagram) can be recorded:</p>
+                <code>1. e4 e5 2. Qh5?! Nc6 3. Bc4 Nf6?? 4. Qxf7#</code>
+                <code></code>
+                <code></code>
+                <code></code>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Scholars_mate_animation.gif" alt="Scholar's mate" class="diagram">
+                <p>Variants of algebraic notation include long form algebraic, in which both the departure and destination square are indicated; abbreviated algebraic, in which capture signs, check signs, and ranks of pawn captures may be omitted; and Figurine Algebraic Notation, used in chess publications for universal readability regardless of language.</p>
+    
+                <p>Portable Game Notation (PGN) is a text-based file format for recording chess games, based on short form English algebraic notation with a small amount of markup. PGN files (suffix .pgn) can be processed by most chess software, as well as being easily readable by humans.</p>
+                <p>Until about 1980, the majority of English language chess publications used descriptive notation, in which files are identified by the initial letter of the piece that occupies the first rank at the beginning of the game. In descriptive notation, the common opening move 1.e4 is rendered as "1.P-K4" ("pawn to king four"). Another system is ICCF numeric notation, recognized by the International Correspondence Chess Federation though its use is in decline.</p>
+                <p>In competitive games, players are normally required to keep a score (record of the game). For this purpose, only algebraic notation is recognized in FIDE-sanctioned events; game scores recorded in a different notation system may not be used as evidence in the event of a dispute.</p>
+            </section>
+            <section class="main-section" id="Opening">
+                <header><h2>Opening</h2></header>
+                <p>A chess opening is the group of initial moves of a game (the "opening moves"). Recognized sequences of opening moves are referred to as openings and have been given names such as the Ruy Lopez or Sicilian Defense. They are catalogued in reference works such as the Encyclopaedia of Chess Openings. There are dozens of different openings, varying widely in character from quiet positional play (for example, the Réti Opening) to very aggressive (the Latvian Gambit). In some opening lines, the exact sequence considered best for both sides has been worked out to more than 30 moves.[23] Professional players spend years studying openings and continue doing so throughout their careers, as opening theory continues to evolve.</p>
+                <p>The fundamental strategic aims of most openings are similar:</p>
+                <ul>
+                    <li>development: This is the technique of placing the pieces (particularly bishops and knights) on useful squares where they will have an optimal impact on the game.</li>
+                    <li>control of the center: Control of the central squares allows pieces to be moved to any part of the board relatively easily, and can also have a cramping effect on the opponent.</li>
+                    <li>king safety: It is critical to keep the king safe from dangerous possibilities. A correctly timed castling can often enhance this.</li>
+                    <li>pawn structure: Players strive to avoid the creation of pawn weaknesses such as isolated, doubled, or backward pawns, and pawn islands – and to force such weaknesses in the opponent's position.</li>
+                </ul>
+                <p>Most players and theoreticians consider that White, by virtue of the first move, begins the game with a small advantage. This initially gives White the initiative. Black usually strives to neutralize White's advantage and achieve equality, or to develop dynamic counterplay in an unbalanced position.</p>
+            </section>
+            <section class="main-section" id="Middlegame">
+                <header><h2>Middlegame</h2></header>
+                <p>The middlegame is the part of the game which starts after the opening. There is no clear line between the opening and the middlegame, but typically the middlegame will start when most pieces have been developed. (Similarly, there is no clear transition from the middlegame to the endgame; see start of the endgame.) Because the opening theory has ended, players have to form plans based on the features of the position, and at the same time take into account the tactical possibilities of the position. The middlegame is the phase in which most combinations occur. Combinations are a series of tactical moves executed to achieve some gain. Middlegame combinations are often connected with an attack against the opponent's king. Some typical patterns have their own names; for example, the Boden's Mate or the Lasker–Bauer combination.</p>
+                <p>Specific plans or strategic themes will often arise from particular groups of openings which result in a specific type of pawn structure. An example is the minority attack, which is the attack of queenside pawns against an opponent who has more pawns on the queenside. The study of openings is therefore connected to the preparation of plans that are typical of the resulting middlegames.</p>
+                <p>Another important strategic question in the middlegame is whether and how to reduce material and transition into an endgame (i.e. simplify). Minor material advantages can generally be transformed into victory only in an endgame, and therefore the stronger side must choose an appropriate way to achieve an ending. Not every reduction of material is good for this purpose; for example, if one side keeps a light-squared bishop and the opponent has a dark-squared one, the transformation into a bishops and pawns ending is usually advantageous for the weaker side only, because an endgame with bishops on opposite colors is likely to be a draw, even with an advantage of a pawn, or sometimes even with a two-pawn advantage.</p>
+            </section>
+            <section class="main-section" id="Endgame">
+                <header><h2>Endgame</h2></header>
+                <p>The endgame (also end game or ending) is the stage of the game when there are few pieces left on the board. There are three main strategic differences between earlier stages of the game and the endgame:</p>
+                <ol>
+                    <li>Pawns become more important. Endgames often revolve around endeavors to promote a pawn by advancing it to the furthest rank.</li>
+                    <li>The king, which requires safeguarding from attack during the middlegame, emerges as a strong piece in the endgame. It is often brought to the center where it can protect its own pawns, attack enemy pawns, and hinder moves of the opponent's king.</li>
+                    <li>Zugzwang, a situation in which the player who is to move is forced to incur a disadvantage, is often a factor in endgames but rarely in other stages of the game. Either side having the move is in zugzwang: Black to move must play 1...Kb7 allowing White to promote the pawn after 2.Kd7; White to move must permit a draw, either by 1.Kc6 stalemate or by losing the pawn after any other legal move.</li>
+                </ol>
+                <p>Endgames can be classified according to the type of pieces remaining on the board. Basic checkmates are positions in which one side has only a king and the other side has one or two pieces and can checkmate the opposing king, with the pieces working together with their king. For example, king and pawn endgames involve only kings and pawns on one or both sides, and the task of the stronger side is to promote one of the pawns. Other more complicated endings are classified according to pieces on the board other than kings, such as "rook and pawn versus rook" endgames.</p>
+            </section>
+        </main>
+    </body>
+</html>

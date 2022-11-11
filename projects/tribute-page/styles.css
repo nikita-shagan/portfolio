@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+
+main {
+    margin: 30px 8px;
+    border-radius: 5px;
+    background-color: #ecf5fc;
+}
+
+
+h1, .caption {
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 4rem;
+    padding: 45px 0 25px;
+}
+
+
+.caption {
+    padding-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+
+figure {
+    margin: 0 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    max-width: 100%;
+    max-height: 620px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 50px 0 30px;
+}
+
+
+.info {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+
+.info p , blockquote, cite {
+    padding: 15px 0;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    text-indent: 30px
+}
+
+
+a {
+    color: #0066cc; 
+}
+
+
+a:visited {
+    color: #0066cc; 
+}
+
+blockquote {
+    font-style: italic;
+}
+
+cite {
+    font-style: italic; 
+    display: block; 
+    padding-top: 0;
+}

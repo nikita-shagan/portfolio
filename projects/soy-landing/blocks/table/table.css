@@ -1,0 +1,16 @@
+.table {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 760px) {
+  .table {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+}
+

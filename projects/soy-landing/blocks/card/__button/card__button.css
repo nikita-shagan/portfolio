@@ -1,0 +1,12 @@
+.card__button {
+  height: 40px;
+  padding: 0 20px;
+  margin-top: 15px;
+  background-color: #f1c40f;
+  transition: background-color .3s linear;
+  border-style: none;
+}
+
+.card__button:hover {
+  background-color: orange;
+}
