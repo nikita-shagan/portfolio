@@ -12,3 +12,9 @@
 .contacts__link:hover {
   transform: translate(0, 8px);
 }
+
+@media screen and (max-width: 640px) {
+  .contacts__link {
+    font-size: 20px;
+  }
+}

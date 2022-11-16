@@ -1,6 +1,5 @@
 @import url("../vendor/normalize.css");
 @import url("../blocks/page/page.css");
-@import url("../blocks/mask/mask.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__nav/header__nav.css");
 @import url("../blocks/header/__links/header__links.css");

@@ -2,3 +2,9 @@
   background-color: var(--main-blue);
   padding: 96px 20px;
 }
+
+@media screen and (max-width: 640px) {
+  .portfolio {
+    padding: 88px 20px;
+  }
+}

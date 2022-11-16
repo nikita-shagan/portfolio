@@ -14,3 +14,10 @@
 .header__link:hover {
   background-color: #45567d;
 }
+
+@media screen and (max-width: 640px) {
+  .header__link {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+}

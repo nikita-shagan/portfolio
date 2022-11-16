@@ -1,8 +1,16 @@
 .header {
   display: flex;
+  justify-content: end;
   min-height: 70px;
   background-color: var(--main-color);
   position: fixed;
   width: 100%;
   z-index: 1;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    justify-content: center;
+  }
 }
