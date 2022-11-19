@@ -1,5 +1,7 @@
 .header__toggle {
   margin-right: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 640px) {
@@ -10,7 +12,13 @@
 
 @media screen and (max-width: 455px) {
   .header__toggle {
-    margin-right: 15px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .header__toggle {
+    margin-right: 7px;
   }
 }
 
