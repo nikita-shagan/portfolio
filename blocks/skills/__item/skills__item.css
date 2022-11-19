@@ -1,0 +1,9 @@
+.skills__item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  color: var(--main-white);
+  text-decoration: none;
+  padding: 10px;
+}

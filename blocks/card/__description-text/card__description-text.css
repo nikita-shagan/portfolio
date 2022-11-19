@@ -10,16 +10,18 @@
 
 .card__description-text::after {
   content: ' />';
-  color: var(--main-gray);
+  font-weight: 700;
+  color: var(--second-color);
   transition: color .2s linear;
 }
 
 .card__description-text::before {
   content: '< ';
-  color: var(--main-gray);
+  font-weight: 700;
+  color: var(--second-color);
   transition: color .2s linear;
 }
 
 .card:hover .card__description-text::before, .card:hover .card__description-text::after {
-  color: #ff7f50;
+  color: var(--main-color);
 }

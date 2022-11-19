@@ -4,6 +4,7 @@
   font-size: 60px;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 640px) {
@@ -12,9 +13,10 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
   .contacts__title {
     font-size: 28px;
+    line-height: 1;
   }
 }
 

@@ -6,12 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nikita Shagan</title>
   <link rel="stylesheet" href="./vendor/normalize.css">
-  <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-    crossorigin="anonymous"
-  >
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
   <link
     href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
     rel="stylesheet"
@@ -30,42 +25,89 @@
       <nav class="header__nav">
         <ul class="header__links">
           <li>
-            <a href="#welcome-section" class="header__link">
+            <a href="#about" class="header__link">
               <span>
-                About
+                Обо мне
               </span>
             </a>
           </li>
           <li>
             <a href="#projects" class="header__link">
               <span>
-                Work
+                Работы
               </span>
             </a>
           </li>
           <li>
             <a href="#contacts" class="header__link">
               <span>
-                Contact
+                Связаться
               </span>
             </a>
           </li>
         </ul>
       </nav>
+      <div class="header__toggle">
+        <a class="header__toggle-link header__toggle-link_active" href="#">Ru</a>
+        <a class="header__toggle-link" href="./en.html">En</a>
+      </div>
     </header>
     <main class="content">
-      <section class="about" id="welcome-section">
-        <h1 class="about__title">Hey I am Nikita</h1>
-        <p class="about__subtitle">a web developer</p>
+      <section class="welcome">
+        <h1 class="welcome__title">Привет, я Никита</h1>
+        <p class="welcome__subtitle">пока верстальщик</p>
+      </section>
+      <section class="about" id="about">
+        <div class="about__grid">
+          <h2 class="about__title">
+            Обо мне
+          </h2>
+          <div class="about__text-container">
+            <p class="about__text">
+              Здравствуйте! Меня зовут Никита, мне 22 года, и я начинающий веб разработчик.
+              Мой интерес к сайтам начался еще в школе - я увлекался созданием сайтов на веб конструкторе wix,
+              но тогда я не подозревал, что есть такая профессия.
+            </p>
+            <p class="about__text">
+              Когда поступил в университет, то полюбил программировать на python и дальше все курсовые и диплом связал с этим языком.
+              В этом году я закончил физмат по профилю учитель математики и информатики, и после выпуска, вспомнив увлечение детства,
+              решил стать веб разработчиком.
+              Сейчас активно изучаю frontend и надеюсь в ближайшем будущем найти стажировку.
+            </p>
+            <p class="about__text">
+              Обожаю решать сложные задачки и радоваться когда все заработало как надо.
+              Еще я люблю играть в шахматы, а зимой кататься на сноуборде. В свободное время играю на гитаре, смотрю фильмы и мультфильмы на
+              английском языке, занимаюсь йогой или просто гуляю на свежем воздухе :)
+            </p>
+            <p class="about__text">
+              Вот несколько технологий, с которыми я работал в последнее время.
+            </p>
+            <ul class="skills">
+              <li class="skills__item">
+                <i class="skills__icon fa fa-html5"></i>
+                <p class="skills__name">HTML5</p>
+              </li>
+              <li class="skills__item">
+                <i class="skills__icon fa fa-css3"></i>
+                <p class="skills__name">CSS3</p>
+              </li>
+              <li class="skills__item">
+                <i class="skills__icon fa fa-code-fork"></i>
+                <p class="skills__name">Git</p>
+              </li>
+            </ul>
+          </div>
+          <img class="about__image" alt="my photo" src="./images/photo.jpg">
+        </div>
       </section>
       <section class="portfolio" id="projects">
-        <h2 class="portfolio__heading">These are some of my projects</h2>
+        <h2 class="portfolio__heading">Некоторые мои проекты</h2>
         <ul class="portfolio__list">
           <li class="card">
             <a class="card__link" href="https://nikita-shagan.github.io/masterra-landing/" target="_blank">
               <img class="card__image" src="./images/masterra.png" alt="Masterra landing">
               <div class="card__description">
-                <p class="card__description-text">Masterra landing</p>
+                <p class="card__description-text">Мастерра лендинг</p>
               </div>
             </a>
           </li>
@@ -73,7 +115,7 @@
             <a class="card__link" href="https://nikita-shagan.github.io/how-to-learn/" target="_blank">
               <img class="card__image" src="./images/how-to-learn.png" alt="How To Learn">
               <div class="card__description">
-                <p class="card__description-text">How To Learn</p>
+                <p class="card__description-text">Научиться учиться</p>
               </div>
             </a>
           </li>
@@ -81,7 +123,7 @@
             <a class="card__link" href="https://nikita-shagan.github.io/soy-landing/" target="_blank">
               <img class="card__image" src="./images/soy.png" alt="Product Page">
               <div class="card__description">
-                <p class="card__description-text">Product Page</p>
+                <p class="card__description-text">Лендинг производителя сои</p>
               </div>
             </a>
           </li>
@@ -89,7 +131,7 @@
             <a class="card__link" href="https://nikita-shagan.github.io/chess-documentation/" target="_blank">
               <img class="card__image" src="./images/chess.png" alt="Chess docs">
               <div class="card__description">
-                <p class="card__description-text">Chess Docs</p>
+                <p class="card__description-text">Шахматная дока</p>
               </div>
             </a>
           </li>
@@ -97,7 +139,7 @@
             <a class="card__link" href="https://nikita-shagan.github.io/survey-form/" target="_blank">
               <img class="card__image" src="./images/form.png" alt="Survey Form">
               <div class="card__description">
-                <p class="card__description-text">Survey Form</p>
+                <p class="card__description-text">Форма обратной связи</p>
               </div>
             </a>
           </li>
@@ -105,7 +147,7 @@
             <a class="card__link" href="https://nikita-shagan.github.io/tribute-page/" target="_blank">
               <img class="card__image" src="./images/shiva.png" alt="Tribute Page">
               <div class="card__description">
-                <p class="card__description-text">Tribute Page</p>
+                <p class="card__description-text">Страница про йога</p>
               </div>
             </a>
           </li>
@@ -113,49 +155,51 @@
       </section>
       <section class="contacts" id="contacts">
         <h2 class="contacts__title">
-          Let's work together...
+          Давайте работать вместе...
         </h2>
         <p class="contacts__subtitle">
-          Here are some contact links
+          Здесь несколько ссылок
         </p>
         <ul class="contacts__links">
             <li>
               <a href="https://t.me/nikita_shagan" target="_blank" class="contacts__link">
-                <i class="contacts__icon fab fa-telegram"></i>
-                <p class="contacts__name">Telegram</p>
+                <i class="contacts__icon fa fa-telegram"></i>
+                <p class="contacts__name">Телеграм</p>
               </a>
             </li>
             <li>
               <a href="https://vk.com/nikydream" target="_blank" class="contacts__link">
-                <i class="contacts__icon fab fa-vk"></i>
-                <p class="contacts__name">Vkontakte</p>
+                <i class="contacts__icon fa fa-vk"></i>
+                <p class="contacts__name">ВКонтакте</p>
               </a>
             </li>
             <li>
               <a href="https://github.com/nikita-shagan" target="_blank" class="contacts__link">
-                <i class="contacts__icon fab fa-github"></i>
+                <i class="contacts__icon fa fa-github"></i>
                 <p class="contacts__name">Github</p>
               </a>
             </li>
             <li>
               <a href="https://wa.me/+79248409105" target="_blank" class="contacts__link">
-                <i class="contacts__icon fab fa-whatsapp"></i>
+                <i class="contacts__icon fa fa-whatsapp"></i>
                 <p class="contacts__name">WhatsApp</p>
               </a>
             </li>
             <li>
               <a href="mailto:nikita.ydisk@mail.ru" class="contacts__link">
-                <i class="contacts__icon fas fa-at"></i>
-                <p class="contacts__name">Send a mail</p>
+                <i class="contacts__icon fa fa-at"></i>
+                <p class="contacts__name">Отправить email</p>
               </a>
             </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <p class="footer__item">This is the personal portfolio</p>
-      <p class="footer__item">© Created by Nikita Shagan</p>
+      <p class="footer__item">Это персональное портфолио</p>
+      <p class="footer__item">© Сделал Никита Шаган</p>
     </footer>
   </div>
 </body>
 </html>
+
+

@@ -9,6 +9,7 @@
   align-items: center;
   height: 70px;
   padding: 0 30px;
+  white-space: nowrap;
 }
 
 .header__link:hover {
@@ -19,5 +20,18 @@
   .header__link {
     font-size: 18px;
     padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .header__link {
+    font-size: 12px;
+    padding: 0 14px;
   }
 }

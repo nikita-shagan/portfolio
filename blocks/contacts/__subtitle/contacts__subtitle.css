@@ -11,8 +11,9 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
   .contacts__subtitle {
     font-size: 12px;
+    padding: 10px 0;
   }
 }

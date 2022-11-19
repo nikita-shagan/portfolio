@@ -1,0 +1,16 @@
+.header__toggle {
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 640px) {
+  .header__toggle {
+    margin-right: 35px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .header__toggle {
+    margin-right: 15px;
+  }
+}
+

@@ -1,0 +1,12 @@
+.about__skills-title {
+  margin: 70px 0 0;
+  font-size: 24px;
+  padding: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .about__skills-title {
+    font-size: 20px;
+  }
+}

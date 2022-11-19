@@ -1,0 +1,10 @@
+.welcome {
+  height: 100vh;
+  background-color: var(--second-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, .2);
+}
