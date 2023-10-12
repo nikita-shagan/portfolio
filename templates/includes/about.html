@@ -1,0 +1,17 @@
+{% load static %}
+<section class="about" id="about">
+  <div class="about__grid">
+    <h2 class="about__title">
+      Обо мне
+    </h2>
+    <div class="about__text-container">
+      <p class="about__text">
+        {{ profile.bio }}
+      </p>
+      <p class="about__text">
+        Навыки: {{ profile.techs }}
+      </p>
+    </div>
+    <img class="about__image" alt="my photo" src={{ profile.avatar.url }}>
+  </div>
+</section>

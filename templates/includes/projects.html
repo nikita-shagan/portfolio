@@ -1,0 +1,15 @@
+<section class="portfolio" id="projects">
+  <h2 class="portfolio__heading">Некоторые мои проекты</h2>
+  <ul class="portfolio__list">
+  {% for work in page_obj %}
+    <li class="card">
+      <a class="card__link" href="{{ work.link }}" target="_blank">
+        <img class="card__image" src="{{ work.image.url }}">
+        <div class="card__description">
+          <p class="card__description-text">{{ work.title }}</p>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</section>

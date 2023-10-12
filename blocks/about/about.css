@@ -1,7 +1,0 @@
-.about {
-  background-color: var(--second-color);
-  box-sizing: border-box;
-  padding: 100px 20px;
-  display: flex;
-  justify-content: center;
-}

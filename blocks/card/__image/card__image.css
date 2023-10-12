@@ -1,8 +1,0 @@
-.card__image {
-  display: block;
-  height: 82%;
-  width: 100%;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 2px 2px 0 0;
-}

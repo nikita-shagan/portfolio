@@ -1,0 +1,14 @@
+.about__text-container {
+  display: grid;
+  gap: 15px;
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+@media screen and (max-width: 850px) {
+  .about__text-container {
+    grid-row: initial;
+    grid-column: initial;
+  }
+}
+

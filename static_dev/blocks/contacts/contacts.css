@@ -1,0 +1,9 @@
+.contacts {
+  min-height: 80vh;
+  background-color: var(--third-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 10px 0;
+}

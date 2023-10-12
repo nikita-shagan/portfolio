@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={% static "vendor/normalize.css" %}>
+    <script src="https://kit.fontawesome.com/d86a645530.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href={% static "pages/index.css" %}>
+    <link rel="icon" href={% static "images/briefcase.png" %}>
+    <title>
+      {% block title %}{% endblock %}
+    </title>
+  </head>
+  <body>
+    <div class="page">
+      {% include "includes/header.html" %}
+      <main>
+        <div class="container py-5">
+          {% block content %}{% endblock %}
+        </div>
+      </main>
+      {% include "includes/footer.html" %}
+    </div>
+  </body>
+</html>
