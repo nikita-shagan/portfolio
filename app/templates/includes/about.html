@@ -12,6 +12,8 @@
         Навыки: {{ profile.techs }}
       </p>
     </div>
-    <img class="about__image" alt="my photo" src={{ profile.avatar.url }}>
+    {% if profile.avatar %}
+      <img class="about__image" alt="my photo" src={{ profile.avatar.url }}>
+    {% endif %}
   </div>
 </section>

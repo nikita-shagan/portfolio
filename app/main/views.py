@@ -1,7 +1,8 @@
 from django.contrib.auth.models import User
+from django.http import Http404
 from django.views.generic import ListView
 
-from work.models import Work, Profile
+from .models import Work, Profile
 
 WORKS_PER_PAGE = 6
 
@@ -14,10 +15,12 @@ class IndexView(ListView):
 
     def get_queryset(self):
         """Set profile attribute."""
-
-        self.profile = Profile.objects.select_related('user').get(
-            user=User.objects.get(username='admin')
-        )
+        try:
+            self.profile = Profile.objects.select_related('user').get(
+                user=User.objects.get(username='admin')
+            )
+        except Exception:
+            raise Http404
 
         return Work.objects.all()
 
