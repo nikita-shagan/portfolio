@@ -1,6 +1,6 @@
 # Portfolio
 
-Website with admin pandel for web developers to show their experience, projects and skills. Build with Django and Docker.
+Website with an admin panel for web developers to showcase their experience, projects, and skills. Built with Django and Docker.
 
 ### Dev setup
 
