@@ -3,6 +3,7 @@
   background-color: var(--third-color);
   border-radius: 2px;
   transition: box-shadow .2s linear;
+  max-width: 360px;
 }
 
 .card:hover {
